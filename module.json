@@ -1,0 +1,36 @@
+{
+	"name": "Cartographer",
+	"version": "0.1.0",
+	"description": "Easily generate flexible maps. Uses Leaflet 0.7.7 and OpenStreetMaps.",
+	"homepage": "https://github.com/taylordaughtry/cartographer",
+	"author": "Caddis",
+	"autoload": true,
+	"extension": false,
+	"style": {
+		"build": [
+			"core/css/lib/leaflet.css"
+		]
+	},
+	"script": {
+		"core": {
+			"enable": true,
+			"namespace": "Cartographer",
+			"features": {
+				"animate": true,
+				"assets": true,
+				"chain": true,
+				"data": true,
+				"dom": true,
+				"events": true,
+				"history": true,
+				"routes": true,
+				"screen": true,
+				"touch": true,
+				"view": true
+			}
+		}
+	},
+	"dependencies": {
+		"wee": "^3.0.0"
+	}
+}
